@@ -5,13 +5,13 @@ module.exports = {
   siteMetadata: {
     title: `Gatsby Starter Blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Vinay Jadav`,
+      summary: `Sitecore Developer`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `A starter blog demonstrating what Sitecore CDP can do with a Gatsby site`,
+    siteUrl: `https://gatsbycdpdemoblogmain.gatsbyjs.io/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `mrvinaykj`,
     },
   },
   plugins: [

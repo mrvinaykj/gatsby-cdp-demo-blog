@@ -31,19 +31,6 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-sitecore-cdp",
-      options: {
-        clientKey: "pqshkqqqoklsqwue4gs09b5idg0mv1d0",
-        cookieDomain: "localhost",
-        apiEndpoint: "https://api.boxever.com/v1.2",
-        pointOfSale: "vinay-test",
-        devOptions: {
-          trackDev: true
-        },
-        exclude: ["/hello-world/"]
-      }
-    },
-    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [

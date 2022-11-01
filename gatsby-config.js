@@ -35,19 +35,6 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-sitecore-cdp",
-      options: {
-        clientKey: process.env.CDP_CLIENT_KEY,
-        cookieDomain: process.env.CDP_CLIENT_DOMAIN,
-        apiEndpoint: process.env.CDP_API_ENDPOINT,
-        pointOfSale: process.env.CDP_POS,        
-        exclude: ["/hello-world/"],
-        devOptions: {
-          trackDev: true
-        },
-      }
-    },
-    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [

@@ -14,7 +14,6 @@
     "gatsby-plugin-manifest": "^4.22.0",
     "gatsby-plugin-robots-txt": "^1.7.1",
     "gatsby-plugin-sharp": "^4.22.0",
-    "gatsby-plugin-sitecore-cdp": "^1.0.0",
     "gatsby-remark-copy-linked-files": "^5.22.0",
     "gatsby-remark-images": "^6.22.0",
     "gatsby-remark-prismjs": "^6.22.0",

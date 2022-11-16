@@ -41,6 +41,36 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-plugin-sitecore-cdp`,
+      options: {
+        clientKey: process.env.CDP_CLIENT_KEY,
+        cookieDomain: "cdpdemo.vinayjadav.com",
+        // Change to the api endpoint for your region
+        apiEndpoint: "https://api.boxever.com/v1.2", 
+        pointOfSale: "vinay-test",
+        // The below options are optional
+        // The Javascript SDK Client version, defaults to 1.4.8
+        clientVersion: "1.4.8",
+        // The webflow CDN to be used for Sitecore Personalize, the below value will be the default
+        webFlowTarget: "https://d35vb5cccm4xzp.cloudfront.net",
+        // The Boxever Script CDN for the JS file, the below value will be the default
+        boxeverCdnTarget: "https://d1mj578wat5n4o.cloudfront.net",
+        // Set value to false, if you want the script to be in the body tag instead of head
+        head: true,
+        // The async value for the boxever script, false by default
+        async: false,
+        // The defer value for the boxever script, false by default
+        defer: false,
+        // DevOptions will be used for local dev configuration
+        devOptions: {
+        // Use this to log events to the console
+          trackDev: true
+        },
+        // Exclude the paths that you do not want to track
+        exclude: ["/hello-world/"]
+      }
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
